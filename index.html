@@ -1,115 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
   <title>Мій сайт</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<div class="container">
-  <nav>
-    <a href="#home">Головна</a>
-    <a href="#about">Про хобі</a>
-    <a href="#image">Зображення</a>
-    <a href="#audio">Аудіо</a>
-    <a href="#schedule">Графік</a>
-  </nav>
 
-  <h1 id="home">Мій Світ: Малювання</h1>
+<body>
+  <div class="container">
+    <nav>
+      <a href="#home">Головна</a>
+      <a href="#about">Про хобі</a>
+      <a href="#image">Зображення</a>
+      <a href="#audio">Аудіо</a>
+      <a href="#schedule">Графік</a>
+      <a href="#feedback">Зворотний зв’язок</a>
+    </nav>
 
-  <h2 id="about">Про моє хобі</h2>
+    <h1 id="home">Мій Світ: Малювання</h1>
 
-  <p>
-    Моє хобі — малювання. Мені подобається створювати малюнки,
-    придумувати образи та передавати настрій за допомогою ліній,
-    кольорів і тіней.
-  </p>
+    <h2 id="about">Про моє хобі</h2>
 
-  <h2 id="image">Мій арт-настрій</h2>
+    <p>
+      Моє хобі — малювання. Мені подобається створювати малюнки,
+      придумувати образи та передавати настрій за допомогою ліній,
+      кольорів і тіней.
+    </p>
 
-  <img
-    src="https://images.unsplash.com/photo-1513364776144-60967b0f800f"
-    alt="Олівці для малювання на столі"
-    width="400">
+    <h2 id="image">Мій арт-настрій</h2>
 
-  <h2>Що мені потрібно:</h2>
+    <img
+      src="https://images.unsplash.com/photo-1513364776144-60967b0f800f"
+      alt="Олівці для малювання на столі"
+      width="400">
 
-  <ul>
-    <li>Олівці</li>
-    <li>Папір або скетчбук</li>
-    <li>Ластик</li>
-    <li>Фарби або маркери</li>
-    <li>Натхнення</li>
-  </ul>
+    <h2>Що мені потрібно:</h2>
 
-  <h2 id="audio">Аудіо для натхнення</h2>
+    <ul>
+      <li>Олівці</li>
+      <li>Папір або скетчбук</li>
+      <li>Ластик</li>
+      <li>Фарби або маркери</li>
+      <li>Натхнення</li>
+    </ul>
 
-  <audio controls>
-    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-    Ваш браузер не підтримує аудіо.
-  </audio>
+    <h2 id="audio">Аудіо для натхнення</h2>
 
-  <h2 id="schedule">Мій графік</h2>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Ваш браузер не підтримує аудіо.
+    </audio>
 
-  <table>
-    <tr>
-      <th>День</th>
-      <th>Час</th>
-    </tr>
+    <h2 id="schedule">Мій графік</h2>
 
-    <tr>
-      <td>Вівторок</td>
-      <td>11:00-12:30</td>
-    </tr>
-
-    <tr>
-      <td>Субота</td>
-      <td>11:00-12:30</td>
-    </tr>
-  </table>
-<section id="feedback">
-  <h2>Зворотний зв’язок</h2>
-
-  <form>
-    <table border="0">
+    <table>
       <tr>
-        <td>
-          <label for="userName">Ваше ім’я:</label>
-        </td>
-        <td>
-          <input type="text" id="userName" name="userName">
-        </td>
+        <th>День</th>
+        <th>Час</th>
       </tr>
 
       <tr>
-        <td>
-          <label for="drawingStyle">Улюблений стиль:</label>
-        </td>
-        <td>
-          <select id="drawingStyle" name="drawingStyle">
-            <option value="sketch">Скетч</option>
-            <option value="anime">Аніме</option>
-            <option value="realism">Реалізм</option>
-            <option value="pixel-art">Піксель-арт</option>
-          </select>
-        </td>
+        <td>Вівторок</td>
+        <td>11:00-12:30</td>
       </tr>
 
       <tr>
-        <td>
-          <label for="favoriteColor">Улюблений колір:</label>
-        </td>
-        <td>
-          <input type="color" id="favoriteColor" name="favoriteColor">
-        </td>
-      </tr>
-
-      <tr>
-        <td></td>
-        <td>
-          <button type="button" onclick="alert('Дякую! Ваше повідомлення успішно відправлено.')">
-            Відправити
-          </button>
-        </td>
+        <td>Субота</td>
+        <td>11:00-12:30</td>
       </tr>
     </table>
-  </form>
-</section>
-</div>
+
+    <section id="feedback">
+      <h2>Зворотний зв’язок</h2>
+
+      <form>
+        <table border="0">
+          <tr>
+            <td>
+              <label for="userName">Ваше ім’я:</label>
+            </td>
+            <td>
+              <input type="text" id="userName" name="userName">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="drawingStyle">Улюблений стиль:</label>
+            </td>
+            <td>
+              <select id="drawingStyle" name="drawingStyle">
+                <option value="sketch">Скетч</option>
+                <option value="anime">Аніме</option>
+                <option value="realism">Реалізм</option>
+                <option value="pixel-art">Піксель-арт</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="favoriteColor">Улюблений колір:</label>
+            </td>
+            <td>
+              <input type="color" id="favoriteColor" name="favoriteColor">
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>
+              <button type="button" onclick="alert('Дякую! Ваше повідомлення успішно відправлено.')">
+                Відправити
+              </button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
